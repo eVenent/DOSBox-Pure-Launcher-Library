@@ -1,0 +1,11 @@
+# Lines in this section will be run at startup.
+
+@ECHO OFF
+mount C ".."
+mount C "..\cloud_saves" -t overlay
+c:
+
+cls
+INTRO.EXE
+CF_ENG.EXE /f
+exit
