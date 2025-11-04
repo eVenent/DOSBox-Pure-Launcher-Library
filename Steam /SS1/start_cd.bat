@@ -1,0 +1,7 @@
+mount C "."
+imgmount D ".\CD\SYSTEMSHOCK.BIN" -t iso
+C:
+CD SSHOCK
+CLS
+CALL CDSHOCK.BAT
+EXIT
